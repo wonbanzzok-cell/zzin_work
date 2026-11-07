@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python .claude/skills/data-summary/scripts/summarize.py *)",
+      "Bash(python .claude/skills/report-export/scripts/export.py *)",
+      "Read(./inputs/**)",
+      "Edit(./workspace/**)",
+      "Edit(./outputs/**)",
+      "Edit(./translate/**)"
+    ],
+    "deny": [
+      "Edit(./inputs/**)"
+    ]
+  }
+}
